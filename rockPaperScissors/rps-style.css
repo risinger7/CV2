@@ -63,9 +63,6 @@ span {
 }
 
 @media (max-width: 500px) {
-    body {
-        background-color: rgb(206, 206, 237);
-    }
     .buttons {
         justify-content: left;
     }
