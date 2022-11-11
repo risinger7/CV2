@@ -1,0 +1,61 @@
+{
+    "headings": {
+        "heading1": "Education",
+        "heading2": "Experience"
+    },
+
+    "edu": [
+        {
+            "name": "Frontend mobile & web",
+            "place": "Chas Academy",
+            "desc": "Frontend Software developer with focus on mobile and webb applications",
+            "yearStart": "sep 2022",
+            "yearEnd": "present"
+        },
+        {
+            "name": "Industrial design engineering",
+            "place": "Luleå university of technology",
+            "desc": "Master level program with focus on industrial design engineering",
+            "yearStart": "sep 2016",
+            "yearEnd": "dec 2021"
+        },
+        {
+            "name": "Natural Science Program",
+            "place": "Bromma Gymnasium",
+            "desc": "High school with focus in science",
+            "yearStart": "sep 2010",
+            "yearEnd": "jun 2013"
+        }
+    ],
+
+    "exp": [
+        {
+            "name": "Case Manager, Svensk Travsport",
+            "place": "Stockholm",
+            "desc": "Planning of upcoming trotting races, problem solving and accuracy was key.",
+            "yearEnd": "summer job",
+            "yearStart": "2016-2021"
+        },
+        {
+            "name": "Game Operator, ATG",
+            "place": "Stockholm",
+            "desc": "I updated the results of the races in the system, this required responsibility, good communication and paying attention.",
+            "yearEnd": "aug 2016",
+            "yearStart": "sep 2013"
+        },
+        {
+            "name": "Warehouse worker, Tech Data Corporation",
+            "place": "Stockholm",
+            "desc": "Handled technology products who were distributed. Efficiency and attention to detail was some of the skills I learned.",
+            "yearEnd": "may 2015",
+            "yearStart": "nov 2014"
+        },
+        {
+            "name": "Janitor & Receptionist, EA Games",
+            "place": "Stockholm",
+            "desc": "Got to try a bunch of different things during my time helping at the offices at EA Games",
+            "yearEnd": "jun 2014",
+            "yearStart": "nov 2013"
+        }
+    ]
+}

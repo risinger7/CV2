@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/style-main.css" />
+        <link rel="stylesheet" href="rps-style.css" />
+        <title>Rock paper scissors</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar" class="navbar">
+                <a href="../index.html" class="logo">Viktor Risinger</a>
+
+                <ul class="navmenu">
+                    <li class="navitem">
+                        <a class="navlink" href="../about.html">CV</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="navlink" href="../contact.html">Contact</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="navlink" href="../index.html">Projects</a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </div>
+            </nav>
+        </header>
+
+        <div class="much-space"></div>
+        <div class="wrapper">
+            <div class="game-box">
+                <div id="buttons" class="buttons">
+                    <button data="rock" id="rock" class="rock">Rock</button>
+                    <button data="paper" id="paper" class="paper">Paper</button>
+                    <button data="scissors" id="scissors" class="scissors">
+                        Scissors
+                    </button>
+                </div>
+
+                <div class="text-div">
+                    <div class="text-div2">
+                        <div class="staticDivs">
+                            <div class="playerDiv">Player:</div>
+                            <div class="compDiv">Comp:</div>
+                            <div>Result:</div>
+                        </div>
+                        <div class="spans">
+                            <span id="player"></span>
+                            <span id="computer"></span>
+                            <span id="result" class="result"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../burger.js"></script>
+        <script src="rps.js"></script>
+    </body>
+</html>
