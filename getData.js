@@ -35,7 +35,6 @@ async function getData() {
                 // inner-grid, 5 divs with information.
                 innerDivs.forEach((div, index) => {
                     div.textContent = tempList[index];
-                    console.log("CURRENT DIV", div.textContent);
                 });
             }
         }
